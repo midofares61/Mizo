@@ -38,21 +38,21 @@ window.onscroll = function () {
 //   }, 1000 / goal);
 // }
 
-// let btn = document.querySelector("a");
+let btn = document.querySelector("a");
 
-// window.onscroll = function () {
-//   if (window.scrollY >= 600) {
-//     btn.style.display = "block";
-//   } else {
-//     btn.style.display = "none";
-//   }
-// };
+window.onscroll = function () {
+  if (window.scrollY >= 600) {
+    btn.style.display = "block";
+  } else {
+    btn.style.display = "none";
+  }
+};
 
-// btn.onclick = function (e) {
-//   e.preventDefault();
-//   window.scrollTo({
-//     left: 0,
-//     top: 0,
-//     behavior: "smooth",
-//   });
-// };
+btn.onclick = function (e) {
+  e.preventDefault();
+  window.scrollTo({
+    left: 0,
+    top: 0,
+    behavior: "smooth",
+  });
+};
