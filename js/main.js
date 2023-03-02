@@ -38,7 +38,7 @@ window.onscroll = function () {
 //   }, 1000 / goal);
 // }
 
-let btn = document.querySelector("a");
+let btn = document.getElementById("up");
 
 window.onscroll = function () {
   if (window.scrollY >= 600) {
